@@ -1,0 +1,76 @@
+.title {
+    padding:20px;
+	padding-left:10px;
+	border-bottom:1px solid #c0c0c0;
+	margin-bottom: 20px;
+}
+
+.navbar-default {
+    margin-top: 20px; 
+	background: #373C73;
+	border:0;
+}
+
+.navbar-default input  {
+    
+    
+    background: #373C73;
+    color:white !important;
+    border:1px solid #AFB4ED;
+
+    
+}
+/* fix place */
+.navbar-default ::-webkit-input-placeholder { /* WebKit browsers */
+    color:#A7AEF5 !important;
+}
+.navbar-default :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:#A7AEF5 !important;
+   opacity:  1;
+}
+.navbar-default ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:#A7AEF5 !important;
+   opacity:  1;
+}
+.navbar-default :-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:#A7AEF5 !important;
+}
+
+
+.thumbnail { 
+	padding-top:20px;
+}
+.thumbnail img { 
+	width: 300px;
+	background: #373C73;
+	padding:20px;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* bootstrap */
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus { color: white;}
+.navbar-default .navbar-nav>li>a { color: #A7AEF5;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus { background: #AFB4ED; }
+
+
+/* search */
+.row_s { 
+    width:100%;
+    margin:15px;
+    padding:25px;
+    border:1px solid #D6D6D6;
+	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;    
+}
+
+.high_r { 
+    background: #F5F8C3;
+ 	-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;   
+    
+}
